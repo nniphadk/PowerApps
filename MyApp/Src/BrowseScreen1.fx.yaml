@@ -89,7 +89,7 @@
         ZIndex: =8
 
     "BrowseGallery1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
-        Height: =Parent.Height - Self.Y
+        Height: =640
         Items: =SortByColumns(Filter([@FACFILE], StartsWith(Title, TextSearchBox1.Text)), "Title", If(SortDescending1, Descending, Ascending))
         Layout: =Layout.Vertical
         OnSelect: =Navigate(DetailScreen1, ScreenTransition.None)
@@ -97,7 +97,6 @@
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
         Width: =Parent.Width
-        Y: =TextSearchBox1.Y + TextSearchBox1.Height
         ZIndex: =9
 
         Title2 As label:

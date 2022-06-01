@@ -62,10 +62,9 @@
 
     DetailForm1 As formViewer:
         DataSource: =[@FACFILE]
-        Height: =Parent.Height - DetailForm1.Y
+        Height: =640
         Item: =BrowseGallery1.Selected
         Width: =Parent.Width
-        Y: =RectQuickActionBar2.Y + RectQuickActionBar2.Height
         ZIndex: =6
 
         NAME_DataCard1 As typedDataCard.comboBoxViewCard:

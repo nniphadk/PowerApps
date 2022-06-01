@@ -2,7 +2,7 @@
 
     RectQuickActionBar3 As rectangle:
         Height: =88
-        Width: =Parent.Width
+        Width: =640
         ZIndex: =1
 
     IconCancel1 As icon.Cancel:
@@ -31,7 +31,7 @@
         TabIndex: =0
         Tooltip: ="Submit item"
         Width: =88
-        X: =Parent.Width - Self.Width
+        X: =552
         ZIndex: =3
 
     LblAppName3 As label:
@@ -39,9 +39,8 @@
         Height: =88
         Size: =27
         Text: ="FACFILE"
-        Width: =Parent.Width - IconCancel1.Width - IconAccept1.Width
+        Width: =640
         Wrap: =false
-        X: =80
         ZIndex: =4
 
     EditForm1 As form:
@@ -49,7 +48,7 @@
         Height: =Parent.Height - EditForm1.Y
         Item: =BrowseGallery1.Selected
         OnSuccess: =Back()
-        Width: =Parent.Width
+        Width: =640
         Y: =RectQuickActionBar3.Height
         ZIndex: =5
 

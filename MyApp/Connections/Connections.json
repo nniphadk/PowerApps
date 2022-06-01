@@ -1,0 +1,27 @@
+{
+  "0075e5ef-3a98-43a8-8739-31854346f44c": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1568/1.0.1568.2757/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://olddominion.sharepoint.com/sites/AcademicAffairsAdministration482": {
+        "dataSources": {
+          "FACFILE": {
+            "tableName": "3e17c599-868b-48f0-b1c4-b88ad2ab7911"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "FACFILE"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "0075e5ef-3a98-43a8-8739-31854346f44c"
+  }
+}

@@ -5,16 +5,6 @@
         Width: =Parent.Width
         ZIndex: =1
 
-    LblAppName1 As label:
-        Fill: =RGBA(58, 58, 58, 0)
-        Height: =88
-        Size: =27
-        Text: ="FACFILE"
-        Width: =Parent.Width - Self.X - IconSortUpDown1.Width - IconNewItem1.Width - IconRefresh1.Width
-        Wrap: =false
-        X: =20
-        ZIndex: =2
-
     IconRefresh1 As icon.Reload:
         AccessibleLabel: =Self.Tooltip
         Height: =88
@@ -174,4 +164,11 @@
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
+
+    Button1 As button:
+        Height: =88
+        Size: =24
+        Text: ="FACFILE"
+        Width: =376
+        ZIndex: =10
 
